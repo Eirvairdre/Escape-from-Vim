@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		16261E2D2D0BFE07003652D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16261E142D0BFE05003652D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16261E1B2D0BFE05003652D8;
+			remoteInfo = "Escape from Vim";
+		};
+		16261E372D0BFE07003652D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16261E142D0BFE05003652D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16261E1B2D0BFE05003652D8;
+			remoteInfo = "Escape from Vim";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16261E1C2D0BFE05003652D8 /* Escape from Vim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Escape from Vim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16261E2C2D0BFE07003652D8 /* Escape from VimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Escape from VimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16261E362D0BFE07003652D8 /* Escape from VimUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Escape from VimUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		16261E1E2D0BFE05003652D8 /* Escape from Vim */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Escape from Vim";
+			sourceTree = "<group>";
+		};
+		16261E2F2D0BFE07003652D8 /* Escape from VimTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Escape from VimTests";
+			sourceTree = "<group>";
+		};
+		16261E392D0BFE07003652D8 /* Escape from VimUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Escape from VimUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16261E192D0BFE05003652D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16261E292D0BFE07003652D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16261E332D0BFE07003652D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16261E132D0BFE05003652D8 = {
+			isa = PBXGroup;
+			children = (
+				16261E1E2D0BFE05003652D8 /* Escape from Vim */,
+				16261E2F2D0BFE07003652D8 /* Escape from VimTests */,
+				16261E392D0BFE07003652D8 /* Escape from VimUITests */,
+				16261E1D2D0BFE05003652D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16261E1D2D0BFE05003652D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16261E1C2D0BFE05003652D8 /* Escape from Vim.app */,
+				16261E2C2D0BFE07003652D8 /* Escape from VimTests.xctest */,
+				16261E362D0BFE07003652D8 /* Escape from VimUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16261E1B2D0BFE05003652D8 /* Escape from Vim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16261E402D0BFE07003652D8 /* Build configuration list for PBXNativeTarget "Escape from Vim" */;
+			buildPhases = (
+				16261E182D0BFE05003652D8 /* Sources */,
+				16261E192D0BFE05003652D8 /* Frameworks */,
+				16261E1A2D0BFE05003652D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				16261E1E2D0BFE05003652D8 /* Escape from Vim */,
+			);
+			name = "Escape from Vim";
+			packageProductDependencies = (
+			);
+			productName = "Escape from Vim";
+			productReference = 16261E1C2D0BFE05003652D8 /* Escape from Vim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16261E2B2D0BFE07003652D8 /* Escape from VimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16261E432D0BFE07003652D8 /* Build configuration list for PBXNativeTarget "Escape from VimTests" */;
+			buildPhases = (
+				16261E282D0BFE07003652D8 /* Sources */,
+				16261E292D0BFE07003652D8 /* Frameworks */,
+				16261E2A2D0BFE07003652D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16261E2E2D0BFE07003652D8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				16261E2F2D0BFE07003652D8 /* Escape from VimTests */,
+			);
+			name = "Escape from VimTests";
+			packageProductDependencies = (
+			);
+			productName = "Escape from VimTests";
+			productReference = 16261E2C2D0BFE07003652D8 /* Escape from VimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16261E352D0BFE07003652D8 /* Escape from VimUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16261E462D0BFE07003652D8 /* Build configuration list for PBXNativeTarget "Escape from VimUITests" */;
+			buildPhases = (
+				16261E322D0BFE07003652D8 /* Sources */,
+				16261E332D0BFE07003652D8 /* Frameworks */,
+				16261E342D0BFE07003652D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16261E382D0BFE07003652D8 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				16261E392D0BFE07003652D8 /* Escape from VimUITests */,
+			);
+			name = "Escape from VimUITests";
+			packageProductDependencies = (
+			);
+			productName = "Escape from VimUITests";
+			productReference = 16261E362D0BFE07003652D8 /* Escape from VimUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16261E142D0BFE05003652D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					16261E1B2D0BFE05003652D8 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					16261E2B2D0BFE07003652D8 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 16261E1B2D0BFE05003652D8;
+					};
+					16261E352D0BFE07003652D8 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 16261E1B2D0BFE05003652D8;
+					};
+				};
+			};
+			buildConfigurationList = 16261E172D0BFE05003652D8 /* Build configuration list for PBXProject "Escape from Vim" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16261E132D0BFE05003652D8;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 16261E1D2D0BFE05003652D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16261E1B2D0BFE05003652D8 /* Escape from Vim */,
+				16261E2B2D0BFE07003652D8 /* Escape from VimTests */,
+				16261E352D0BFE07003652D8 /* Escape from VimUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16261E1A2D0BFE05003652D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16261E2A2D0BFE07003652D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16261E342D0BFE07003652D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16261E182D0BFE05003652D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16261E282D0BFE07003652D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16261E322D0BFE07003652D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16261E2E2D0BFE07003652D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16261E1B2D0BFE05003652D8 /* Escape from Vim */;
+			targetProxy = 16261E2D2D0BFE07003652D8 /* PBXContainerItemProxy */;
+		};
+		16261E382D0BFE07003652D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16261E1B2D0BFE05003652D8 /* Escape from Vim */;
+			targetProxy = 16261E372D0BFE07003652D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16261E3E2D0BFE07003652D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16261E3F2D0BFE07003652D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16261E412D0BFE07003652D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Escape from Vim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eirvairdre.Escape-from-Vim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16261E422D0BFE07003652D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Escape from Vim/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eirvairdre.Escape-from-Vim";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16261E442D0BFE07003652D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eirvairdre.Escape-from-VimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Escape from Vim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Escape from Vim";
+			};
+			name = Debug;
+		};
+		16261E452D0BFE07003652D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eirvairdre.Escape-from-VimTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Escape from Vim.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Escape from Vim";
+			};
+			name = Release;
+		};
+		16261E472D0BFE07003652D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eirvairdre.Escape-from-VimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Escape from Vim";
+			};
+			name = Debug;
+		};
+		16261E482D0BFE07003652D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Eirvairdre.Escape-from-VimUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Escape from Vim";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16261E172D0BFE05003652D8 /* Build configuration list for PBXProject "Escape from Vim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16261E3E2D0BFE07003652D8 /* Debug */,
+				16261E3F2D0BFE07003652D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16261E402D0BFE07003652D8 /* Build configuration list for PBXNativeTarget "Escape from Vim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16261E412D0BFE07003652D8 /* Debug */,
+				16261E422D0BFE07003652D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16261E432D0BFE07003652D8 /* Build configuration list for PBXNativeTarget "Escape from VimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16261E442D0BFE07003652D8 /* Debug */,
+				16261E452D0BFE07003652D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16261E462D0BFE07003652D8 /* Build configuration list for PBXNativeTarget "Escape from VimUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16261E472D0BFE07003652D8 /* Debug */,
+				16261E482D0BFE07003652D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16261E142D0BFE05003652D8 /* Project object */;
+}
