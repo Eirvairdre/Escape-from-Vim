@@ -11,7 +11,7 @@ import SwiftUI
 struct Escape_from_VimApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HelloScreen()
         }
     }
 }
